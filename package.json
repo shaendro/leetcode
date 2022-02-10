@@ -1,0 +1,26 @@
+{
+	"private": true,
+	"scripts": {
+		"dev": "svelte-kit dev",
+		"build": "svelte-kit build",
+		"package": "svelte-kit package",
+		"preview": "svelte-kit preview"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/kit": "next",
+		"@tailwindcss/forms": "^0.4.0",
+		"@tailwindcss/line-clamp": "^0.3.1",
+		"autoprefixer": "^10.4.2",
+		"postcss": "^8.4.6",
+		"svelte": "^3.44.0",
+		"tailwindcss": "^3.0.18",
+		"three": "^0.137.5"
+	},
+	"type": "module",
+	"dependencies": {
+		"@fontsource/fira-mono": "^4.5.0",
+		"@lukeed/uuid": "^2.0.0",
+		"cookie": "^0.4.1"
+	}
+}
